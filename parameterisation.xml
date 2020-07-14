@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="parameterDemo">
+  	<parameter name="User" value="Divya"/>
+  	<parameter name="Pass" value="12345"/>
+    <classes>
+      <class name="testNGDemo.TestDemo2"/>
+      <class name="testNGDemo.TestDemo1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="parameter2Demo">
+  	<parameter name="User" value="Kiara"/>
+  	<parameter name="Pass" value="98765"/>
+  	<parameter name="URL" value="kiara.com"/>
+    <classes>
+      <class name="testNGDemo.TestDemo3"/>
+      <class name="testNGDemo.TestDemo4"/>
+       <class name="testNGDemo.TestDemo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
