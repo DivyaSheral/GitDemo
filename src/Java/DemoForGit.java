@@ -17,4 +17,8 @@ public class DemoForGit {
 		System.out.println("Multiply");
 	}
 
+	public void div()
+	{
+		System.out.println("Division");
+	}
 }
